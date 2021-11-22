@@ -1,0 +1,20 @@
+.home-div {
+  height: 65vh;
+  width: 100%;
+  background-color: maroon;
+  font-family: 'Bebas Neue';
+  color: white;
+  margin-top: 0;
+}
+.home-title {
+  font-size: 240px;
+  margin-left: 100px;
+  padding-top: 60px;
+  width: 200px;
+  line-height: 200px;
+}
+.home-bottom-div {
+  height: 35vh;
+  background-color: #692e00;
+  background-image: linear-gradient(to right, #692e00, #a7611c);
+}
