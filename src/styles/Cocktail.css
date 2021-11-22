@@ -1,0 +1,42 @@
+.cocktail-div {
+  height: 100vh;
+  overflow-y: hidden;
+}
+.upper-div {
+  height: 50vh;
+  width: 100%;
+  background-image: linear-gradient(to right, #692e00, #a7611c);
+}
+
+.lower-paralax-div {
+  height: 100vh;
+  width: 100%;
+  animation: mymove 5s linear infinite;
+  position: absolute;
+  z-index: -1;
+}
+
+.parallax-img {
+  height: 50vh;
+}
+
+.sample-div-1 {
+  background-color: green;
+  height: 25vh;
+  width: 100%;
+}
+
+.sample-div-2 {
+  background-color: red;
+  height: 25vh;
+  width: 100%;
+}
+
+@keyframes mymove {
+  from {
+    top: 50vh;
+  }
+  to {
+    top: 0vh;
+  }
+}
