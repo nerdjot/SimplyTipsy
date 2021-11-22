@@ -6,12 +6,22 @@
   height: 50vh;
   width: 100%;
   background-image: linear-gradient(to right, #692e00, #a7611c);
+  font-family: 'Bebas Neue';
+  color: white;
+}
+
+.cocktail-name {
+  font-size: 80px;
+  width: 200px;
+  line-height: 70px;
+  margin-left: 100px;
+  padding-top: 50px;
 }
 
 .lower-paralax-div {
   height: 100vh;
   width: 100%;
-  animation: mymove 5s linear infinite;
+  animation: mymove 16s linear infinite;
   position: relative;
   z-index: -1;
 }

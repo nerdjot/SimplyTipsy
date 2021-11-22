@@ -3,7 +3,9 @@ import '../styles/Cocktail.css';
 const Cocktail = () => {
   return (
     <div className="cocktail-div">
-      <div className="upper-div"></div>
+      <div className="upper-div">
+        <div className="cocktail-name">The Old Fashioned</div>
+      </div>
       <div className="lower-div">
         <div className="lower-paralax-div">
           <div className="parallax-img">
